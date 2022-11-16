@@ -46,3 +46,8 @@ Vehiculo >> mostrarDatos [
 	Transcript show: marca; cr.
 	Transcript show: modelo; cr.
 ]
+
+{ #category : #printing }
+Vehiculo >> tocarClaxon [
+	Transcript show: 'Bonk! Bonk!'; cr.
+]

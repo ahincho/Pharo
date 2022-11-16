@@ -37,3 +37,10 @@ VehiculoTest >> testMostrarDatos [
 	c modelo: '8 Pro'.
 	c mostrarDatos 
 ]
+
+{ #category : #tests }
+VehiculoTest >> testTocarClaxon [
+	| v |
+	v := Vehiculo new.
+	v tocarClaxon 
+]

@@ -19,5 +19,11 @@ Auto >> asientos: aInteger [
 
 { #category : #printing }
 Auto >> mostrarDatos [ 
+	super mostrarDatos.
 	Transcript show: asientos; cr.
+]
+
+{ #category : #printing }
+Auto >> tocarClaxon [ 
+	Transcript show: 'Bam! Bam!'; cr.
 ]
