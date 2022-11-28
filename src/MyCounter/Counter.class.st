@@ -22,7 +22,7 @@ Counter >> count [
 
 { #category : #accessing }
 Counter >> decrement [
-	count = count - 1
+	count = count - 1.
 ]
 
 { #category : #accessing }
